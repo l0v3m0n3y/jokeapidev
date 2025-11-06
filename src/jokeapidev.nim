@@ -1,4 +1,4 @@
-import asyncdispatch, httpclient, json, strutils, std/times
+import asyncdispatch, httpclient, json, strutils
 
 const api = "https://v2.jokeapi.dev"
 var headers = newHttpHeaders({
